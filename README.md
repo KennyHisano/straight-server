@@ -35,6 +35,11 @@ I currently only tested it on Unix machines.
 
 1. Install RVM, Ruby 2.1 (see [RVM guide](http://rvm.io/rvm/install)) and Redis.
 
+**fix . version check**
+Ruby 2.1
+Redis 3.2.1
+RVM 2.2.1
+
 2. run `gem install straight-server`
 
 3. start the server by running `straight-server`. This will generate a` ~/.straight` dir and put a `config.yml`
